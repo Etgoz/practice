@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"outDir": "./src/scripts/js",
+		"target": "es2020",
+		"lib": ["DOM", "es2021"],
+		"watch": true
+	}
+}

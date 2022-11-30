@@ -1,0 +1,30 @@
+:root {
+	font-family: sans-serif;
+}
+
+body {
+	text-align: center;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	background-color: rgb(185, 232, 248);
+
+	td,
+	th {
+		padding: 0.5em;
+	}
+
+	tbody > tr {
+		&:nth-child(odd) {
+			background-color: antiquewhite;
+		}
+
+		&:hover {
+			background-color: cadetblue;
+		}
+	}
+}
